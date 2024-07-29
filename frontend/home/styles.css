@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav .nav-link {
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+section#product img,
+.zigzag-container img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+section#product img:hover,
+.zigzag-container img:hover {
+    transform: scale(1.05);
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
+
+
+.oval-bg {
+    background-color: #fe6106;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.oval-bg1 {
+    background-color: white;
+    color: #fe6106;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.zigzag-container img {
+    width: 45%;
+    margin: 5px;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.zigzag-container img:nth-child(odd) {
+    margin-left: 5%;
+}
+
+button.btn:hover {
+    background-color: #e55904;
+}
+
+.rounded-img {
+    border-radius: 15px;
+}

@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav .nav-link {
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+section#product img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.oval-bg2 {
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
+
+

@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav .nav-link {
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+section#product img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer p {
+    margin: 0;
+}
+
+
